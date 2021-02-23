@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    border:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:black
+}
+
+header{
+    background-color: cadetblue;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+header h1{
+    width: 50%;
+}
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header ul li{
+    padding: 10px;
+}
+
+section{
+   padding:50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow:row wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flex-item {
+    /* makes each one 45%, putting 10% between each element on the page */
+    width: 100%;
+    background-color: #393b4f;
+    font-size: 22px;
+    font-weight: bold;
+    /* puts space between each one vertically */
+    margin-bottom: 15px;
+    /* for files in local images folder, use url('../images/file-name.jpg') */
+    background-image: url(./assets/weather-app-reactjs.png);
+    /* tells background to fit box no matter what */
+    background-size: cover;
+    /* crops it at the center */
+    background-position: center;
+    /* padding top and bottom 20px, 0 for left/right */
+    padding: 20px 0;
+    /* sets minimum height value so there's room */
+    min-height: 250px;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+.flex-item span {
+    width: 100%;
+    background-color: #fefeff;
+    text-align: center;
+  
+}
+  
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+
+    header nav ul{
+        justify-content: center;
+    }
+}
