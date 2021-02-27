@@ -6,14 +6,23 @@
 }
 
 #bg {
-    position: absolute; 
-    top: 0;
-    left: 0; 
-    min-width: 100%;
-    /* Preserve aspet ratio */
-    z-index: -2;
-    opacity: 0.3;
-    border-radius: 0;
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 0;
+  z-index:-2;
+  border: 0;
+ margin: 0;
+ opacity: 0.2;
   }
 
 a{
@@ -98,6 +107,7 @@ section{
    justify-content: center;
    align-items: center;
    width: 100%;
+   margin-bottom: 20px;
   
 }
 
