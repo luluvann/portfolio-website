@@ -44,6 +44,7 @@ header{
     top: 0;
     position: -webkit-sticky;
     position: sticky;
+    z-index: 2;
 }
 
 header nav ul{
@@ -97,6 +98,29 @@ header nav ul li{
    
 }
 
+.hero h1{
+    position: relative;
+    animation: h1;
+    animation-duration: 0.5s;
+    animation-timing-function:linear;
+    z-index: 1;
+}
+
+.hero h1 h3{
+    position: relative;
+    animation: hero;
+    animation-duration: 1s;
+    animation-timing-function:linear;
+}
+
+@keyframes hero {
+    0%   { top:0px;}
+    25%  { top:5px;}
+    50%  { top:15px;}
+    75%  { top:5px;}
+    100% { top:0px;}
+  }
+
 .hero div div i{
     font-size: 25px;
     margin: 5px;
@@ -108,8 +132,20 @@ section{
    align-items: center;
    width: 100%;
    margin-bottom: 20px;
+   position: relative;
+    animation: section;
+    animation-duration: 0.5s;
+    animation-timing-function:linear;
   
 }
+
+@keyframes section {
+    0%   { left:0px; top:0px;}
+    25%  { top:0px;}
+    50%  { top:10px;}
+    75%  { top:10px;}
+    100% { top:0px;}
+  }
 
 section h2{
     width:20%;
