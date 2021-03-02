@@ -9,9 +9,9 @@
 :root {
     --img: url(./assets/weather-app-reactjs.png);
     --img1: url(./assets/Octocat.jpg);
-    --img2: url(./assets/Octocat.jpg);
-    --img3: url(./assets/Octocat.jpg);
-    --img4: url(./assets/Octocat.jpg);
+    --img2: url(./assets/search-engine-optimization.jpg);
+    --img3: url(./assets/runbuddy.jpg);
+    --img4: url(./assets/rockpaperscissors.jpg);
   }
   
 #bg {
@@ -201,7 +201,7 @@ section p{
     top: 0;
     left:0;
     background-color:cadetblue;
-    opacity: 0.5;
+    opacity: 0.4;
     z-index: 1;
 }
 
@@ -210,14 +210,14 @@ section p{
 }
 
 .flex-item span {  
-    width: 70%;
+    width: 150px;
     background-color:cadetblue;
     color: #393b4f;
     padding: 10px 5px;
     text-align: left;
     display: block;
     margin-bottom:20px;
-    font-size:0.9rem;
+    font-size:0.7rem;
     z-index: 2;
 }
 
@@ -225,7 +225,7 @@ section p{
     display: inline-block;
     padding:0;
     margin: 0;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     font-weight: lighter;
 }
 
@@ -240,15 +240,20 @@ section p{
 
 .flex-sub-item {
     min-width: 250px;
-    width: 50%;
+    height: 150px;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 20px;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-attachment: cover;
     padding: 20px 0;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
+    justify-content: flex-end;
     position: relative;
     border: cadetblue solid 5px;
   }
@@ -269,14 +274,23 @@ section p{
     background-image: var(--img4);
 }
 
-.flex-sub-item span {
-    position: relative;
-    width: 250px;
-    height: 50px;
-    background-color: #fefeff;
-    left: 0;
-    text-align: center;
-    font-size: 60%;
+.flex-sub-item span { 
+    width: 150px; 
+    background-color:cadetblue;
+    color: #393b4f;
+    padding: 10px 5px;
+    text-align: left;
+    display: block;
+    font-size:0.7rem;
+    z-index: 2;
+}
+
+.flex-sub-item span span{
+    display: inline-block;
+    padding:0;
+    margin: 0;
+    font-size: 0.6rem;
+    font-weight: lighter;
 }
 
 
@@ -340,12 +354,12 @@ section p{
     }
 
     .flex-item{
-        max-width:190px;
+        min-width:190px;
         margin-right: 30px;
     }
 
     .flex-sub-item {
+        min-width: 200px;
         margin-right: 30px;
-        min-width:190px;
       }
 }
