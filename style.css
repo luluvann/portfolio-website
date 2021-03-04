@@ -1,10 +1,10 @@
 /*Variables*/
 :root {
     --img: url(./assets/weather-app-reactjs.png);
-    --img1: url(./assets/Octocat.jpg);
+    --img1: url(./assets/octocat.jpg);
     --img2: url(./assets/search-engine-optimization.jpg);
-    --img3: url(./assets/runbuddy.jpg);
-    --img4: url(./assets/rockpaperscissors.jpg);
+    --img3: url(./assets/run-buddy.jpg);
+    --img4: url(./assets/rock-paper-scissors.jpg);
     --color1: #A1C3D1;
     --color2: #F0EBF4;
   }
@@ -68,11 +68,13 @@ header nav ul{
 }
 
 header nav ul li{
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 
 header nav ul li a:hover{
     color:var(--color2 );
+    border-bottom: 3px solid var(--color2);
 }
 
 /*Hero*/
@@ -182,8 +184,9 @@ section div p{
         min-height: 250px;
         background-image: var(--img);
         background-repeat: no-repeat;
-        background-attachment: cover;
+        background-attachment:cover;
         background-position-x: center;
+        background-size: 800px;
         margin: 15px;
         border: var(--color1) 3px solid;
         position: relative;
@@ -196,6 +199,7 @@ section div p{
         background-repeat: no-repeat;
         background-attachment: cover;
         background-position-x: center;
+        background-size: 355px;
         margin: 15px;
         border: var(--color1) 3px solid;
         position: relative;
