@@ -137,7 +137,7 @@ section{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     margin:15px;
     margin-top:50px;
     position: relative;
@@ -172,7 +172,7 @@ h2{
     justify-content: space-between;
 }
 
-section div p{
+.container p{
     margin: 15px;
 }
 
@@ -288,18 +288,19 @@ section div p{
     }
   
     header nav ul{
-          justify-content: center;
-          align-items: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
   
     .hero-container{
-          align-items: center;
-          margin: 15px;
-          width: 100%;
+        align-items: center;
+        margin: 15px;
+        width: 100%;
     }
   
     .hero .technologies{
-          justify-content: center;
+        justify-content: center;
     } 
 
     section{
@@ -307,7 +308,7 @@ section div p{
     }
 
     section h2{
-        width: 35%;
+        width: 25%;
     }
 
     .container{
