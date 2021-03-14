@@ -290,7 +290,7 @@ section h2{
     #contact-me i{
     align-self:center;
     padding: 15px;
-    size: 80px;
+    font-size: 25px;
     }
 
 /*Responsiveness*/
@@ -344,6 +344,14 @@ section h2{
         min-width: 200px;
         min-height: 150px;
     }
+
+    #contact-me .container{
+        justify-content: center;
+        width: 65%;
+    }
+    #contact-me i{
+        padding: 15px;
+        }
 }
 
 @media screen and (max-width: 325px) {
@@ -368,6 +376,11 @@ section h2{
 
     .container p{
         text-align: center;        
+    }
+
+    #contact-me .container{
+        width: 100%;
+        justify-content: center;
     }
 
 }
