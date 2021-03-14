@@ -134,6 +134,11 @@ header nav ul li a:hover{
 .technologies i {
     position: relative;
     display: inline-block;
+    padding-bottom: 18px;
+  }
+
+  .technologies .fab {
+    font-size: 22px;
   }
   
   .technologies i span {
