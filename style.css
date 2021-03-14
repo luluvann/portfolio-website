@@ -284,11 +284,10 @@ section h2{
     #contact-me .container{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: left;
     }
 
     #contact-me i{
-    align-self:center;
     padding: 15px;
     font-size: 25px;
     }
@@ -334,7 +333,7 @@ section h2{
     }
 
     .main-app-box{
-        max-width: 43%;
+        max-width: 100%;
         min-width: 200px;
         min-height: 200px;
        
@@ -352,6 +351,29 @@ section h2{
     #contact-me i{
         padding: 15px;
         }
+}
+
+@media screen and (max-width: 753px) {
+
+    .container{
+        width: 75%;
+    }
+    .main-app-box{
+        max-width: 100%;
+        min-width: 200px;
+        min-height: 200px;
+       
+    }
+    .secondary-app-boxes{
+        width: 100%;
+        min-width: 100%;
+        min-height: 150px;
+    }
+
+    #contact-me .container{
+        justify-content: center;
+        width: 75%;
+    }
 }
 
 @media screen and (max-width: 325px) {
