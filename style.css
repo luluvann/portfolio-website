@@ -5,6 +5,7 @@
     --img2: url(./assets/password-gen.jpg);
     --img3: url(./assets/po-contacts.jpg);
     --img4: url(./assets/rock-paper-scissors.jpg);
+    --img5: url(./assets/code-quiz.jpg);
     --color1: #A1C3D1;
     --color2: #F0EBF4;
   }
@@ -268,6 +269,10 @@ section h2{
 
     .four{
         background-image: var(--img4);
+    }
+
+    .five{
+        background-image: var(--img5);
     }
 
     .opacity-layer{
