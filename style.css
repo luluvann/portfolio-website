@@ -6,6 +6,7 @@
     --img3: url(./assets/po-contacts.jpg);
     --img4: url(./assets/rock-paper-scissors.jpg);
     --img5: url(./assets/code-quiz.jpg);
+    --img6: url(./assets/pro-trader.jpg);
     --color1: #A1C3D1;
     --color2: #F0EBF4;
   }
@@ -273,6 +274,10 @@ section h2{
 
     .five{
         background-image: var(--img5);
+    }
+
+    .six{
+        background-image: var(--img6);
     }
 
     .opacity-layer{
