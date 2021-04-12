@@ -83,8 +83,8 @@ var scrollState = 'bottom';
 
 $(window).scroll(function(){ 
   $("#about").fadeIn(3000)
-  $("#work").fadeIn(5000)
-  $("#contact").fadeIn(7000)
+  $("#work").fadeIn(4000)
+  $("#contact").fadeIn(5000)
 });
 
 cardGenerator(cards)
