@@ -4,101 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <title>Lucile Thou Web Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-2.css" />
 </head>
 <body>
-    <!--Navbar-->
     <header>
         <nav>
             <ul>
-                <li><a href="https://luluvann.github.io/portfolio-website">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#my-work">My Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <!-- <li><a href="./assets/resume_eng_web-dev_lucilet.pdf" download target="_blank">My Resume</a></li> -->
+                <li><a href="#"><span>01. </span>About Me</a></li>
+                <li><a href="#"><span>02. </span>My Work</a></li>
+                <li><a href="#"><span>03. </span>Contact</a></li>
             </ul>
         </nav>
+       
     </header>
-    <!--Hero-->
-    <div class="hero">
-        <img id="bg" src="./assets/hero-bg.jpg" alt="Lucile Thou Web Developer Portfolio"/>
-        <!--<img src="./assets/profile-picture.JPG"/>-->
-        <div class="activity_rounded"><img src="./assets/profile-picture.JPG" /></div>
-        <div class="hero-container">
-          <h1>Lucile Thou</h1>
-          <h3>Web Developer</h3>
-          <div class="technologies">
-            <i class="fab fa-git"><span>Git</span></i>
-            <i class="fab fa-github"><span>Github</span></i>
-            <i class="fab fa-js"><span>Javascript ES6</span></i>
-            <i class="fab">mongoDB<span>mongoDB</span></i>
-            <i class="fab">Express<span>ExpressJS</span></i>
-            <i class="fab fa-react"><span>ReactJS</span></i>
-            <i class="fab fa-node"><span>NodeJS</span></i>
-            <i class="fab fa-python"><span>Python</span></i>
-            <i class="fab fa-html5"><span>HTML5</span></i>
-            <i class="fab fa-css3-alt"><span>CSS</span></i>
-            <i class="fab fa-ubuntu"><span>Linux Ubuntu</span></i>
-            <i class="fab fa-windows"><span>Microsoft Windows 10</span></i>
-          </div>
-        </div>
+    <button id="navbar-toggler"><i class="fas fa-bars"></i></button>
+    <div class="nav-layer">
+        <ul>
+            <li><a href="#"><span>01. </span>About Me</a></li>
+            <li><a href="#"><span>02. </span>My Work</a></li>
+            <li><a href="#"><span>03. </span>Contact</a></li>
+        </ul>
     </div>
-    <!--Main Sections-->
     <main>
-        <!--About Section-->
-        <section id="about">
-            <h2>About</h2>
-            <div class="container">
-                <p>I'm a Montreal based full stack web developer and data analyst. I care about creating maintainable web apps and tools providing the best user experience possible. Before I aspired to become a professional developer in 2019, I worked many years as a Business & Operations Analyst part of an IT team. The most fun part of my job was to analyze and to query large databases with SQL, Excel spreadsheets and pivot tables. I also enjoy working in a quality driven team in which members help, challenge each other to achieve the same goal.<br>On my free time, I enjoy travelling, hiking, playing guitar or the ukulélé and sailing.</p>
-            </div>
-        </section>
-        <!--My Work Section-->
-        <section id="my-work">
-            <h2>My Work</h2>
-            <div class="container">
-                <a href="https://luluvann.github.io/react-weather-app/website/?city=Montreal" class="main-app-box">
-                    <div class="opacity-layer"></div>
-                    <span><h5>Weather Web App</h5><h6>ReactJS, OWM API</h6></span>
-                </a>
-                <a href="https://luluvann.github.io/github-api/" class="secondary-app-box one">
-                    <div class="opacity-layer"></div>
-                    <span><h5>Github Repos Lister</h5><h6>ReactJS, Github API</h6></span>
-                </a>
-                <a href="https://luluvann.github.io/password-generator" class="secondary-app-box two">
-                    <div class="opacity-layer"></div>
-                    <span><h5>Password Generator</h5><h6>Vanilla Javascript</h6></span>
-                </a>
-                <a href="https://www.pocontacts.app/" class="secondary-app-box three">
-                    <div class="opacity-layer"></div>
-                    <span><h5>Mobile App Landing Page</h5><h6>HTML, CSS</h6></span>
-                </a>
-                <a href="https://github.com/luluvann/rock-paper-scissors" class="secondary-app-box four">
-                    <div class="opacity-layer"></div>
-                    <span><h5>Rock Paper Scissors</h5><h6>Python</h6></span>
-                </a>
-                <a href="https://luluvann.github.io/code-quiz/" class="secondary-app-box five">
-                    <div class="opacity-layer"></div>
-                    <span><h5>Javascript Code Quiz</h5><h6>JQuery, Bootstrap 4</h6></span>
-                </a>
-                <a href="https://phonix375.github.io/Pro-Trader/" class="secondary-app-box six">
-                    <div class="opacity-layer"></div>
-                    <span><h5>Pro Trader Simulator</h5><h6>JQuery, Bootstrap 4, Server-Side APIs</h6></span>
-                </a>
-            </div>
-        </section>
-        <!--Contact Me Section-->
-        <section id="contact-me">
-            <h2>Contact Me</h2>
-            <div class="container">
-                <a href="mailto:developer.lvt@gmail.com" target="_blank"><i class="fas fa-at"></i></a>
-                <a href="https://github.com/luluvann" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/lucilethou" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </section>
+        <h5>Hello World, I'm</h5>
+        <h1>Lucile Thou</h1>
+        <h2>Web Developer / Data Analyst</h2>
+        <p>I'm a <span>Montreal</span> based <span>self-taught MERN stack web developer</span> since 2020 with a professional background in data analysis. I care about creating maintainable web apps and tools providing the best user experience possible.</p>
+        <button>Get in touch</button>
     </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
