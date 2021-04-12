@@ -81,7 +81,7 @@ nav ul li a:hover {
 /* main */
 main {
   padding-left: 100px;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 h1 {
@@ -138,10 +138,12 @@ section{
     display: flex;
     flex-wrap:nowrap;
     flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
     position: relative;
-    height: 100vh;
-    margin-top:50px;
-    scroll-margin-top: 5em
+    margin-top:15px;
+    margin-bottom: 20px;
+    scroll-margin-top: 1em
 }
 
 section h3 {
@@ -182,7 +184,66 @@ section li::before {
     position: relative;
   }
 
+#project-cards{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-start;
+    width: 90%;
+}
+
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 200px;
+    min-height: 200px;
+    margin: 5px;
+    padding: 15px;
+    background-color: var(--color4);
+}
+
+.card h4{
+  margin: 5px;
+  color: var(--color1)
+}
+
+.card a:hover{
+  margin: 0;
+  color: var(--color3)
+}
+
+.card p{
+  margin: 5px;
+  color: var(--color1);
+  width: 90%;
+
+}
+
+.card h5{
+  position: relative;
+  margin: 5px;
+  font-family: var(--monospace);
+  font-weight: lighter  ;
+  color:var(--color1);
+  width:95%
+}
+
+.links{
+  position: relative;
+  margin:5px;
+  bottom: 0px;
+}
+
+.card i{
+  color: var(--color1);
+  font-size:15px;
+}
+               
+
 footer{
+    position: relative;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -275,7 +336,6 @@ footer a:hover {
 
   main {
     position: relative;
-    top: 10vh;
     z-index: -5;
     padding-left: 50px;
   }
@@ -290,5 +350,9 @@ footer a:hover {
 
   p {
     width: 90%;
+  }
+
+  #project-cards{
+    justify-content: center;
   }
 }
