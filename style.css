@@ -276,6 +276,7 @@ footer a:hover {
     color: var(--color1);
   }
 
+
 @media screen and (max-width: 1052px) {
   nav {
     display: none;
@@ -342,11 +343,8 @@ footer a:hover {
     right: 10px;
   }
 
-  /* main */
-
   main {
     position: relative;
-    z-index: -5;
     padding-left: 50px;
   }
 
@@ -363,3 +361,4 @@ footer a:hover {
   }
 
 }
+
