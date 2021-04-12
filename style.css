@@ -151,6 +151,15 @@ span {
   text-decoration: none;
 }
 
+hr{
+    margin: 0;
+    margin-left: 15px ;
+    width: 50%;
+    border: none;
+    border-top: 0.2px solid var(--color1);
+    align-self: center;
+}
+
 @media screen and (max-width: 1052px) {
   nav {
     display: none;
