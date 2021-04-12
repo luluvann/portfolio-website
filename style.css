@@ -120,23 +120,30 @@ i {
   font-size: 30px;
 }
 
-button {
+section button {
   color: var(--color3);
   background-color: transparent;
   border: 1px solid var(--color3);
   border-radius: 5%;
   padding: 15px;
   margin-top: 10px;
+  width: 150px;
 }
 
 /* Section */
 section{
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: column;
     position: relative;
     height: 100vh;
+    margin-top:50px;
+    scroll-margin-top: 5em
 }
 
 section h3 {
   color: var(--color1);
+  display: flex;
 }
 
 span {

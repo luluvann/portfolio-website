@@ -19,4 +19,7 @@ $("#navbar-toggler").on("click", "i", function () {
   }
 });
 
-
+$(".nav-layer").on("click", function(){
+  $(".nav-layer").css("display", "none");
+  $("#navbar-toggler i").attr("class", "fas fa-bars")
+})
