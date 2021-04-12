@@ -165,7 +165,7 @@ section ul{
     list-style: none;
 }
 
-li::before { 
+section li::before { 
     content: "";
     border-color: transparent var(--color3);
     border-style: solid;
