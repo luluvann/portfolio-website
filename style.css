@@ -132,7 +132,7 @@ button {
 /* Section */
 section{
     position: relative;
-    top:100vh
+    height: 100vh;
 }
 
 section h3 {
