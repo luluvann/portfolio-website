@@ -151,7 +151,7 @@ section h3 {
   font-family: var(--monospace);
 }
 
-span {
+section span {
   color: var(--color3);
   text-decoration: none;
 }
@@ -258,6 +258,18 @@ section li::before {
 .links i:hover{
   color: var(--color3);
 }   
+
+#links-contact{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+#links-contact i{
+  margin: 10px;
+}
+
 
 /* Footer */
 footer{
@@ -368,6 +380,23 @@ footer a:hover {
 
   #presentation p {
     width: 90%;
+  }
+
+  #about p{
+    width: 90%;
+  }
+  #project-cards{
+    justify-content: center;
+  }
+
+  #project-cards .card{
+    display: flex;
+    width: 90%;
+  }
+
+  #links-contact{
+    width: 90%;
+    justify-content: center;
   }
 
 }
