@@ -160,6 +160,29 @@ hr{
     align-self: center;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+}
+
+footer p{
+    color: var(--color3);
+    margin: 5px;
+}
+
+footer a {
+    color: var(--color1);
+  
+  }
+  
+footer a:hover {
+    color: var(--color1);
+  }
+
 @media screen and (max-width: 1052px) {
   nav {
     display: none;
