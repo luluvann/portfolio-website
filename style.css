@@ -185,6 +185,17 @@ section li::before {
 
  /* section My Work*/ 
 
+#about{
+  display: none;
+}
+
+#work{
+  display: none;
+}
+
+#contact{
+  display: none;
+}
 
 #project-cards{
     display: flex;
@@ -246,8 +257,7 @@ section li::before {
 
 .links i:hover{
   color: var(--color3);
-}
-        
+}   
 
 /* Footer */
 footer{
@@ -361,4 +371,3 @@ footer a:hover {
   }
 
 }
-

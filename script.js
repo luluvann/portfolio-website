@@ -79,4 +79,12 @@ function cardGenerator(cards){
   }
 }
 
+var scrollState = 'bottom';
+
+$(window).scroll(function(){ 
+  $("#about").fadeIn(3000)
+  $("#work").fadeIn(5000)
+  $("#contact").fadeIn(7000)
+});
+
 cardGenerator(cards)
