@@ -3,6 +3,9 @@
 ## Deployed Portfolio
 [https://lucile.dev]
 
+## Preview of the website
+![](./assets/preview-redesign-portfolio.gif)
+
 ## Features
 - Responsive and all mobile devices friendly
 - Clickable Navbar links to corresponding sections
