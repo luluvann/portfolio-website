@@ -21,7 +21,7 @@ var cards = [
     title: "Mobile App Landing Page",
     description: "A landing page to promote a mobile app",
     technologies: "HTML, CSS",
-    links: ["github","https://www.pocontacts.app"]
+    links: ["https://github.com/luluvann/po-contacts","https://www.pocontacts.app"]
   },
   {
     title: "Javascript Code Quiz",
