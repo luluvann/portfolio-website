@@ -122,7 +122,7 @@ i {
   font-size: 30px;
 }
 
-section button {
+#presentation button {
   color: var(--color3);
   background-color: transparent;
   border: 1px solid var(--color3);
@@ -130,6 +130,11 @@ section button {
   padding: 15px;
   margin-top: 10px;
   width: 150px;
+}
+
+#presentation button a {
+  color: var(--color3);
+  text-decoration: none;
 }
 
 /* Section */
@@ -262,14 +267,28 @@ section li::before {
 #links-contact{
   display: flex;
   flex-direction: row;
-  width: 50%;
+  flex-wrap: wrap;
+  width: 30%;
   justify-content: flex-start;
 }
 
-#links-contact i{
+#links-contact a{
+  display: flex;
+  flex-direction: column;
+  height: 55px;
+  width: 100%;
   margin: 10px;
+  text-decoration: none;
+  color: var(--color1);
+  text-align: center;
+  justify-content: space-between;
+  align-items:flex-start;
 }
 
+
+#links-contact a:hover{
+  color:var(--color3)
+}
 
 /* Footer */
 footer{
@@ -397,6 +416,10 @@ footer a:hover {
   #links-contact{
     width: 90%;
     justify-content: center;
+  }
+
+  #links-contact a{
+    align-items: center;
   }
 
 }

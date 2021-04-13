@@ -79,8 +79,6 @@ function cardGenerator(cards){
   }
 }
 
-var scrollState = 'bottom';
-
 $(window).scroll(function(){ 
   $("#about").fadeIn(3000)
   $("#work").fadeIn(4000)
