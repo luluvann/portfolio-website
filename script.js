@@ -30,7 +30,7 @@ var cards = [
     links: ["https://github.com/luluvann/code-quiz","https://luluvann.github.io/code-quiz"]
   },
   {
-    title: "Weather forecast Dashboard",
+    title: "Weather Forecast Dashboard",
     description: "A simple weather dashboard to see current and weather forecast ",
     technologies: "jQuery, Bootstrap 4, Open Weather Map API",
     links: ["https://github.com/luluvann/weather-dashboard","https://luluvann.github.io/weather-dashboard"]
