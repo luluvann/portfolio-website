@@ -76,6 +76,7 @@ nav ul li a:hover {
 #navbar-toggler i {
   color: var(--color3);
   font-size: 30px;
+  cursor: pointer;
 }
 
 /* main */
