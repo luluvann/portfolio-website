@@ -41,6 +41,12 @@ var cards = [
     technologies: "jQuery, Bootstrap 4, Server side APIs",
     links: ["https://github.com/luluvann/Pro-Trader","https://phonix375.github.io/Pro-Trader"]
   },
+  {
+    title: "Live The Outdoors",
+    description: "Full Stack Plateform to favorite hiking trails (collaborative project)",
+    technologies: "Express.js, Handlebars, Connect-Session, Sequelize, MySQL",
+    links: ["https://github.com/luluvann/live-the-outdoors","https://vast-retreat-28547.herokuapp.com/"]
+  },
 ]
 
 $(window).resize(function(){
