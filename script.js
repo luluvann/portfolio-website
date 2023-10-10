@@ -45,13 +45,13 @@ var cards = [
     title: "Live The Outdoors",
     description: "Full Stack Plateform to favorite hiking trails (collaborative project)",
     technologies: "Express.js, Handlebars, Connect-Session, Sequelize, MySQL",
-    links: ["https://github.com/luluvann/live-the-outdoors","https://vast-retreat-28547.herokuapp.com"]
+    links: ["https://github.com/luluvann/live-the-outdoors","https://github.com/luluvann/live-the-outdoors"]
   },
   {
     title: "The Community Gallery",
     description: "Full Stack Plateform to vote or sell artworks (collaborative project)",
     technologies: "React.js, Express.js, GraphQL, MongoDB/Mongoose",
-    links: ["https://github.com/deepikabekal/TCG","https://cryptic-thicket-25855.herokuapp.com"]
+    links: ["https://github.com/deepikabekal/TCG","https://github.com/deepikabekal/TCG"]
   },
 ]
 
