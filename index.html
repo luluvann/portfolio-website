@@ -1,49 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title id="title">Lucile Web Developer</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li class="languages">
-            <!-- <span class="fr">FR</span><span>|</span><span class="eng">ENG</span> -->
-          </li>
-          <li>
-            <a href="#about"><span>01. </span>About Me</a>
-          </li>
-          <li>
-            <a href="#work"><span>02. </span>My Work</a>
-          </li>
-          <li>
-            <a href="#contact"><span>03. </span>Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <button id="navbar-toggler"><i class="fas fa-bars"></i></button>
-    <div class="nav-layer">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="title">Lucile Web Developer</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
       <ul>
         <li class="languages">
-          <span class="fr">FR</span><span>|</span><span class="eng">ENG</span>
+          <!-- <span class="fr">FR</span><span>|</span><span class="eng">ENG</span> -->
         </li>
         <li>
           <a href="#about"><span>01. </span>About Me</a>
@@ -55,64 +32,96 @@
           <a href="#contact"><span>03. </span>Contact</a>
         </li>
       </ul>
-    </div>
-    <main>
-      <section id="presentation">
-        <h5>Hello World, I'm</h5>
-        <h1>Lucile</h1>
-        <h2>Web Developer / Data Analyst</h2>
-        <p id="shortDescription">
-          I'm a <span>Montreal</span> based and bilingual
-          <span>self-taught MERN stack web developer</span> since 2020 with a
-          professional background in data analysis. I care about creating
-          maintainable web apps and tools providing the best user experience
-          possible.
-        </p>
-        <button><a href="#contact">Get in touch</a></button>
-      </section>
-      <section id="about">
-        <h3><span>01. </span> About Me <hr></h3>
-        <p id="longDescription">
-          My interest in web development started back in 2019 when I tried to automate pictures renaming process using Python and command lines and when I became comfortable with using SQL queries, querying large databases of thousands of lines. When I was a Business Operations Analyst, the aspect of my job I was enjoying the most was to analyze data, find that little detail that would solve a problem.
-          After I self taught most of the technical skills thanks to all the amazing resources available online, I still decided to enroll in the Coding Bootcamp of the University of Toronto to hone those technical skills I acquired and also to give me the opportunity to practice my collaboration skills in a context of development using agile methodology. I am expecting to complete the bootcamp by the end of July 2021.
-        </p>
-        <p id="technologiesList">Here are the technologies I've been working with: </p>
-        <ul>
-            <li>Git</li>
-            <li>SQL</li>
-            <li>Python</li>
-            <li>Javascript ES6</li>
-            <li>Node.js</li>
-            <li>ReactJS</li>
-            <li>MongoDB</li>
-            <li>Express.js</li>
-            <li>jQuery</li>
-            <li>Bootstrap 4</li>
-            <li>Handlebars</li>
-            <li>Sequelize</li>
-            <li>MySQL</li>
-        </ul>
-      </section>
-      <section id="work">
-        <h3><span>02. </span> My Work <hr></h3>
-        <div id="project-cards">
-        </div>
-      </section>
-      <section id="contact">
-        <h3><span>03. </span> Contact Me <hr></h3>
-        <div id="links-contact">
-          <a href="https://www.linkedin.com/in/lucilethou"><i class="fab fa-linkedin-in"></i>   https://www.linkedin.com/in/lucilethou</a>
-          <a href="https://github.com/luluvann"><i class="fab fa-github"></i>   https://github.com/luluvann</a>
-          <a href="mailto:developer.lvt@gmail.com"><i class="fas fa-envelope-square"></i>   developer.lvt@gmail.com</a>
-        </div>
-      </section>
-    </main>
-    <footer>
-        <p id="builtBy">Built by <a href="https://github.com/luluvann">Lucile</a></p>
-        <p id="designedBy">Designed by <a href="https://github.com/bchiang7/v4">Britanny Chiang</a></p>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="./script.js"></script>
-    <script src="./languages.js"></script>
-  </body>
+    </nav>
+  </header>
+  <button id="navbar-toggler"><i class="fas fa-bars"></i></button>
+  <div class="nav-layer">
+    <ul>
+      <li class="languages">
+        <span class="fr">FR</span><span>|</span><span class="eng">ENG</span>
+      </li>
+      <li>
+        <a href="#about"><span>01. </span>About Me</a>
+      </li>
+      <li>
+        <a href="#work"><span>02. </span>My Work</a>
+      </li>
+      <li>
+        <a href="#contact"><span>03. </span>Contact</a>
+      </li>
+    </ul>
+  </div>
+  <main>
+    <section id="presentation">
+      <h5>Hello World, I'm</h5>
+      <h1>Lucile</h1>
+      <h2>Web Developer / Data Analyst</h2>
+      <p id="shortDescription">
+        I'm a <span>Montreal</span> based and bilingual
+        <span>self-taught MERN stack web developer</span> since 2020 with a
+        professional background in data analysis. I care about creating
+        maintainable web apps and tools providing the best user experience
+        possible.
+      </p>
+      <button><a href="#contact">Get in touch</a></button>
+    </section>
+    <section id="about">
+      <h3><span>01. </span> About Me
+        <hr>
+      </h3>
+      <p id="longDescription">
+        My interest in web development started back in 2019 when I tried to automate pictures renaming process using
+        Python and command lines and when I became comfortable with using SQL queries, querying large databases of
+        thousands of lines. When I was a Business Operations Analyst, the aspect of my job I was enjoying the most was
+        to analyze data, find that little detail that would solve a problem.
+        After I self taught most of the technical skills thanks to all the amazing resources available online, I still
+        decided to enroll in the Coding Bootcamp of the University of Toronto to hone those technical skills I acquired
+        and also to give me the opportunity to practice my collaboration skills in a context of development using agile
+        methodology. I am expecting to complete the bootcamp by the end of July 2021.
+      </p>
+      <p id="technologiesList">Here are the technologies I've been working with: </p>
+      <ul>
+        <li>Git</li>
+        <li>SQL</li>
+        <li>Python</li>
+        <li>Javascript ES6</li>
+        <li>Node.js</li>
+        <li>ReactJS</li>
+        <li>MongoDB</li>
+        <li>Express.js</li>
+        <li>jQuery</li>
+        <li>Bootstrap 4</li>
+        <li>Handlebars</li>
+        <li>Sequelize</li>
+        <li>MySQL</li>
+      </ul>
+    </section>
+    <section id="work">
+      <h3><span>02. </span> My Work
+        <hr>
+      </h3>
+      <div id="project-cards">
+      </div>
+    </section>
+    <section id="contact">
+      <h3><span>03. </span> Contact Me
+        <hr>
+      </h3>
+      <div id="links-contact">
+        <a href="https://www.linkedin.com/in/lucilethou"><i class="fab fa-linkedin-in"></i>
+          https://www.linkedin.com/in/lucilethou</a>
+        <a href="https://github.com/luluvann"><i class="fab fa-github"></i> https://github.com/luluvann</a>
+        <a href="mailto:developer.lvt@gmail.com"><i class="fas fa-envelope-square"></i> developer.lvt@gmail.com</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p id="builtBy">Built by <a href="https://github.com/luluvann">Lucile</a></p>
+    <p id="designedBy">Designed by <a href="https://github.com/bchiang7/v4">Britanny Chiang</a></p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./script.js"></script>
+  <script src="./languages.js"></script>
+</body>
+
 </html>

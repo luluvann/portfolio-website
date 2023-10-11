@@ -52,7 +52,7 @@ nav ul li a {
 nav ul li a span {
   color: var(--color3);
   text-decoration: none;
-  
+
 }
 
 nav ul li a:hover {
@@ -139,16 +139,16 @@ i {
 }
 
 /* Section */
-section{
-    display: flex;
-    flex-wrap:nowrap;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 100vh;
-    position: relative;
-    margin-top:10px;
-    margin-bottom: 20px;
-    scroll-margin-top: 1em
+section {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  scroll-margin-top: 1em
 }
 
 section h3 {
@@ -162,96 +162,96 @@ section span {
   text-decoration: none;
 }
 
-hr{
-    margin: 0;
-    margin-left: 15px ;
-    width: 50%;
-    border: none;
-    border-top: 0.2px solid var(--color1);
-    align-self: center;
+hr {
+  margin: 0;
+  margin-left: 15px;
+  width: 50%;
+  border: none;
+  border-top: 0.2px solid var(--color1);
+  align-self: center;
 }
 
-section ul{
-    color: var(--color2);
-    list-style: none;
+section ul {
+  color: var(--color2);
+  list-style: none;
 }
 
-section li::before { 
-    content: "";
-    border-color: transparent var(--color3);
-    border-style: solid;
-    border-width: 0.35em 0 0.35em 0.45em;
-    display: block;
-    height: 0;
-    width: 0;
-    left: -1em;
-    top: 0.9em;
-    position: relative;
-  }
-
-#project-cards{
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:flex-start;
-    width: 90%;
-    z-index: 2;
+section li::before {
+  content: "";
+  border-color: transparent var(--color3);
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
 }
 
-#project-cards .card{
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    width: 200px;
-    min-height: 200px;
-    margin: 5px;
-    padding: 15px;
-    background-color: var(--color4);
+#project-cards {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 90%;
+  z-index: 2;
+}
+
+#project-cards .card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 200px;
+  min-height: 200px;
+  margin: 5px;
+  padding: 15px;
+  background-color: var(--color4);
 }
 
 
-.card h4{
+.card h4 {
   margin: 5px;
 }
 
-.card a{
+.card a {
   color: var(--color3);
   text-decoration: none;
 }
 
-.card p{
+.card p {
   margin: 5px;
   color: var(--color1);
   width: 90%;
 }
 
-.card h5{
+.card h5 {
   position: relative;
   margin: 5px;
   font-family: var(--monospace);
-  font-weight: lighter  ;
-  color:var(--color1);
-  width:95%
+  font-weight: lighter;
+  color: var(--color1);
+  width: 95%
 }
 
-.links{
+.links {
   position: relative;
-  margin:5px;
+  margin: 5px;
   margin-top: 10px;
 }
 
-.links i{
+.links i {
   color: var(--color1);
-  font-size:20px;
-  margin-right:5px
+  font-size: 20px;
+  margin-right: 5px
 }
 
-.links i:hover{
+.links i:hover {
   color: var(--color3);
-}   
+}
 
-#links-contact{
+#links-contact {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -259,7 +259,7 @@ section li::before {
   justify-content: flex-start;
 }
 
-#links-contact a{
+#links-contact a {
   display: flex;
   flex-direction: column;
   height: 55px;
@@ -269,40 +269,40 @@ section li::before {
   color: var(--color1);
   text-align: center;
   justify-content: space-between;
-  align-items:flex-start;
+  align-items: flex-start;
 }
 
 
-#links-contact a:hover{
-  color:var(--color3)
+#links-contact a:hover {
+  color: var(--color3)
 }
 
 /* Footer */
-footer{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 10px;
-  
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+
 }
 
-footer p{
-    color: var(--color3);
-    margin: 5px;
+footer p {
+  color: var(--color3);
+  margin: 5px;
 }
 
 footer a {
-    color: var(--color1);
-  
-  }
-  
+  color: var(--color1);
+
+}
+
 footer a:hover {
-    color: var(--color1);
-  }
+  color: var(--color1);
+}
 
 
 @media screen and (max-width: 1052px) {
@@ -318,11 +318,9 @@ footer a:hover {
     height: 100%;
     width: 100%;
     background: rgb(255, 255, 255);
-    background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.1) 50%,
-      rgba(0, 0, 0, 1) 50%
-    );
+    background: linear-gradient(90deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(0, 0, 0, 1) 50%);
     backdrop-filter: blur(5px);
     z-index: 80;
     justify-content: flex-end;
@@ -388,24 +386,25 @@ footer a:hover {
     width: 90%;
   }
 
-  #about p{
+  #about p {
     width: 90%;
   }
-  #project-cards{
+
+  #project-cards {
     justify-content: center;
   }
 
-  #project-cards .card{
+  #project-cards .card {
     display: flex;
     width: 90%;
   }
 
-  #links-contact{
+  #links-contact {
     width: 90%;
     justify-content: center;
   }
 
-  #links-contact a{
+  #links-contact a {
     align-items: center;
   }
 
