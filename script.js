@@ -156,6 +156,7 @@ function listGenerator(list, idName) {
   }
 }
 
+
 cardGenerator(cards)
 listGenerator(languagesTechs, "languagesTechs")
 listGenerator(frontEndTechs, "frontEndTechs")
