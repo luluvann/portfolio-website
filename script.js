@@ -158,8 +158,8 @@ function listGenerator(list, idName) {
 
 
 cardGenerator(cards)
-// listGenerator(languagesTechs, "languagesTechs")
-// listGenerator(frontEndTechs, "frontEndTechs")
-// listGenerator(backEndTechs, "backEndTechs")
-// listGenerator(databaseTechs, "databaseTechs")
-// listGenerator(othersTechs, "othersTechs")
+listGenerator(languagesTechs, "languagesTechs")
+listGenerator(frontEndTechs, "frontEndTechs")
+listGenerator(backEndTechs, "backEndTechs")
+listGenerator(databaseTechs, "databaseTechs")
+listGenerator(othersTechs, "othersTechs")
