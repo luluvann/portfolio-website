@@ -189,20 +189,6 @@ section li::before {
     position: relative;
   }
 
- /* section My Work*/ 
-
-#about{
-  display: none;
-}
-
-#work{
-  display: none;
-}
-
-#contact{
-  display: none;
-}
-
 #project-cards{
     display: flex;
     position: relative;

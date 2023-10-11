@@ -99,10 +99,4 @@ function cardGenerator(cards) {
   }
 }
 
-$(window).scroll(function(){ 
-  $("#about").fadeIn(3000)
-  $("#work").fadeIn(4000)
-  $("#contact").fadeIn(5000)
-});
-
 cardGenerator(cards)
