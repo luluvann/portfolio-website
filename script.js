@@ -61,6 +61,49 @@ var cards = [
   },
 ]
 
+var languagesTechs = [
+  "JavaScript ES6",
+  "TypeScript",
+  "C#",
+  "Python",
+  "HTML",
+  "Sass (CSS with superpowers)",
+  "CSS",
+  "SQL",
+  "VBA",
+]
+
+var frontEndTechs = [
+  "ReactJS",
+  "Blazor",
+  "Angular",
+  "jQuery",
+  "Bootstrap 4",
+  "Handlebars",
+]
+
+var backEndTechs = [
+  "Node.js",
+  "Express.js",
+  "Sequelize",
+  "MySQL",
+]
+
+var databaseTechs = [
+  "GraphQL",
+  "Sequelize",
+  "MySQL",
+  "NoSQL",
+  "MongoDB",
+]
+
+var othersTechs = [
+  "Git", "Insomnia", "Postman",
+  "Debugging", "Unit tests",
+  "Documentation", "Agile", "Figma",
+  "HubSpot dev"
+]
+
 $(window).resize(function () {
   if ($(window).width() >= 1052) {
     $("nav").css("display", "flex")
@@ -105,4 +148,17 @@ function cardGenerator(cards) {
   }
 }
 
+function listGenerator(list, idName) {
+  for (var i = 0; i < list.length; i++) {
+    $(`#${idName}`).append(`
+     <li>${list[i]}</li>
+    `);
+  }
+}
+
 cardGenerator(cards)
+listGenerator(languagesTechs, "languagesTechs")
+listGenerator(frontEndTechs, "frontEndTechs")
+listGenerator(backEndTechs, "backEndTechs")
+listGenerator(databaseTechs, "databaseTechs")
+listGenerator(othersTechs, "othersTechs")
