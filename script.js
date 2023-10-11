@@ -6,6 +6,12 @@ var cards = [
     links: ["https://www.lucile.dev", "https://github.com/luluvann/portfolio-website"]
   },
   {
+    title: "React Project with TypeScript and Redux",
+    description: "A React Project developped in TypeScript using Redux",
+    technologies: "HTML, Sass, TypeScript, Redux",
+    links: ["https://luluvann.github.io/react-typescript-redux/", "https://github.com/luluvann/react-typescript-redux"]
+  },
+  {
     title: "Weather Web App",
     description: "A simple web app to see the current weather in a city",
     technologies: "React, Open Weather Map API",
