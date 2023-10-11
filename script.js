@@ -1,5 +1,11 @@
 var cards = [
   {
+    title: "My Portfolio",
+    description: "My webapps portfolio",
+    technologies: "HTML, CSS, Javascript",
+    links: ["https://www.lucile.dev", "https://github.com/luluvann/portfolio-website"]
+  },
+  {
     title: "Weather Web App",
     description: "A simple web app to see the current weather in a city",
     technologies: "React, Open Weather Map API",
