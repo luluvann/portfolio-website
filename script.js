@@ -138,15 +138,15 @@ $(".nav-layer").on("click", function () {
 function cardGenerator(cards) {
   for (var i = 0; i < cards.length; i++) {
     var cardObj = cards[i];
-    var externalLink = cardObj.links[1] ? `<a href="${cardObj.links[1]}"><i class="fas fa-external-link-alt"></i></a>` : '';
+    var externalLink = cardObj.links[1] ? `<a href="${cardObj.links[1]}" target="_blank"><i class="fas fa-external-link-alt"></i></a>` : '';
 
     $("#project-cards").append(`
       <div class="card">
-        <h4><a href="${cardObj.links[1]}">${cardObj.title}</a></h4>
+        <h4><a href="${cardObj.links[0]}" target="_blank">${cardObj.title}</h4>
         <p>${cardObj.description}</p>
         <h5>${cardObj.technologies}</h5>
         <div class="links">
-          <a href="${cardObj.links[0]}"><i class="fab fa-github"></i></a>
+          <a href="${cardObj.links[0]}" target="_blank"><i class="fab fa-github"></i></a>
           ${externalLink}
         </div>
       </div>
