@@ -45,13 +45,13 @@ var cards = [
     title: "Live The Outdoors",
     description: "Full Stack Plateform to favorite hiking trails (collaborative project)",
     technologies: "Express.js, Handlebars, Connect-Session, Sequelize, MySQL",
-    links: ["https://github.com/luluvann/live-the-outdoors","https://github.com/luluvann/live-the-outdoors"]
+    links: ["https://github.com/luluvann/live-the-outdoors"]
   },
   {
     title: "The Community Gallery",
     description: "Full Stack Plateform to vote or sell artworks (collaborative project)",
     technologies: "React.js, Express.js, GraphQL, MongoDB/Mongoose",
-    links: ["https://github.com/deepikabekal/TCG","https://github.com/deepikabekal/TCG"]
+    links: ["https://github.com/deepikabekal/TCG"]
   },
 ]
 
@@ -80,20 +80,22 @@ $(".nav-layer").on("click", function(){
   $("#navbar-toggler i").attr("class", "fas fa-bars")
 })
 
-function cardGenerator(cards){
-  for(var i = 0; i < cards.length ; i++){
-    var cardObj = cards[i]
+function cardGenerator(cards) {
+  for (var i = 0; i < cards.length; i++) {
+    var cardObj = cards[i];
+    var externalLink = cardObj.links[1] ? `<a href="${cardObj.links[1]}"><i class="fas fa-external-link-alt"></i></a>` : '';
+
     $("#project-cards").append(`
       <div class="card">
-        <h4><a href=${cardObj.links[1]}>${cardObj.title}</a></h4>
+        <h4><a href="${cardObj.links[1]}">${cardObj.title}</a></h4>
         <p>${cardObj.description}</p>
         <h5>${cardObj.technologies}</h5>
         <div class="links">
-          <a href=${cardObj.links[0]}><i class="fab fa-github"></i></a> 
-          <a href=${cardObj.links[1]}><i class="fas fa-external-link-alt"></i></a>
+          <a href="${cardObj.links[0]}"><i class="fab fa-github"></i></a>
+          ${externalLink}
         </div>
       </div>
-  `)
+    `);
   }
 }
 
