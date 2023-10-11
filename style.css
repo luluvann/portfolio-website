@@ -17,6 +17,15 @@ body {
   background-color: var(--bg-color);
   font-family: "Roboto", sans-serif;
   height: 100%;
+  position: relative;
+  margin-top: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: inherit;
 }
 
 nav {
