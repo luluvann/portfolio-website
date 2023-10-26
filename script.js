@@ -1,5 +1,11 @@
 var cards = [
   {
+    title: "Login in React TS, SCSS",
+    description: "Login page",
+    technologies: "React, TypeScript, SCSS",
+    links: ["https://luluvann.github.io/login-react/", "https://github.com/luluvann/login-react"]
+  },
+  {
     title: "My Portfolio",
     description: "My webapps portfolio",
     technologies: "HTML, CSS, Javascript",
