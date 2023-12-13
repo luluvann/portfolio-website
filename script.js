@@ -1,5 +1,11 @@
 var cards = [
   {
+    title: "Scaffold project with NestJS in TypeScript & MongoDB/Mongoose",
+    description: "A scaffold back-end project NestJS with a MongoDB db with basic settings and routes examples to be re-used in any new back-end projects",
+    technologies: "NestJS, MongoDB, TypeScript",
+    links: ["https://github.com/luluvann/NestJSMongoDB", "https://github.com/luluvann/NestJSMongoDB"]
+  },
+  {
     title: "Login in React TS, SCSS",
     description: "Login page",
     technologies: "React, TypeScript, SCSS",
@@ -96,6 +102,7 @@ var frontEndTechs = [
 
 var backEndTechs = [
   "Node.js",
+  "NestJS",
   "Express.js",
   "Sequelize",
   "MySQL",
