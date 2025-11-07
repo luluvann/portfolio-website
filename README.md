@@ -1,7 +1,7 @@
 # Professional Web Development Portfolio
 
 ## Deployed Portfolio
-[https://lucile.dev]
+https://luluvann.github.io/portfolio-website/
 
 ## Preview of the website
 ![](./assets/preview-redesign-portfolio.gif)
